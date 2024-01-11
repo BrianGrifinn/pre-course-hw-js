@@ -6,5 +6,3 @@ let userInfo = {
 };
 
 document.write("Возраст: ", userInfo.age);
-
-jnj
