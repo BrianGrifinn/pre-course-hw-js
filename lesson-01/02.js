@@ -1,8 +1,8 @@
-let userInfo = {
-    firstName: "Slavik",
-    lastName: "Petrov",
-    age: 29,
-    country: "Netherlands",
-};
+let students = [
+    ["audi", "Slavik", 1998],
+    ["lada", "Ivan", 2004],
+    ["bmw", "Albert", 2020],
+];
 
-document.write("Возраст: ", userInfo.age);
+let list = students[0];
+
