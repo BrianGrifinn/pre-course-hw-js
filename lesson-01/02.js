@@ -1,22 +1,15 @@
-/*let informationClients = [
-    ["Kiril ", "Herson ", 25],
-    ["Karl ", "Kiev ", 50],
-    ["Viktoria ", "Kharkov ", 20],
-]
-
-let list = informationClients[1];
-Client = list[1];
-
-document.write()*/
-
 let usersInfo = [
-    ["Anatolyi: ", "Tayota ", "c 2008"],
-    ["Viktor: ", "Honda ", "c 2020"],
+    ["Petiya ", "Kiev", 28],
+    ["Vasiya ", "Kharkov", 90],
+    ["Koliya ", "Krim", 18],
 ];
 
-for (let x = 0; x <= usersInfo.length; x++) {
-    let user = usersInfo[0];
-for (let g = 0; user.length; g++) {
-    document.write(user)
+for (let i = 0; i < usersInfo.length; i++) {
+    let user = usersInfo[i];
+    document.write("-----------", "<br>")
+    for (let j = 0; j < user.length; j++) {
+        let product = user[j];
+        document.write(j + 1, " - ", product, "<br>")
+    }
+
 }
-};
